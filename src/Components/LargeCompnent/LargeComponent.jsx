@@ -76,7 +76,7 @@ function LargeComponent() {
               dolores atque.
             </p>
 
-            <div className="containermany">
+            <div className="twoboxcontainer" >
               <Line text="More in this series" />
 
               <div className="detail">
