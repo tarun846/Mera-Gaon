@@ -1,0 +1,1 @@
+.center-text h3{overflow:hidden;text-align:center;font-family:var(--main-font)}.center-text h3:before,.center-text h3:after{background-color:#000;content:"";display:inline-block;height:1px;position:relative;vertical-align:middle;width:50%}.center-text h3:before{right:.5em;margin-left:-50%}.center-text h3:after{left:.5em;margin-right:-50%}

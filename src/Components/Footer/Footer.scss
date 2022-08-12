@@ -1,0 +1,45 @@
+.footer{
+    background-color: #28373e;
+    min-height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+  
+    ul{
+        text-align: center;
+        list-style: none;
+        margin-left: 10px;
+
+        li{
+            color: #62737a;
+            font-family: sans-serif;
+                white-space: nowrap;
+        }
+
+        h4{
+            font-family: var(--main-font);
+   color: white;
+        }
+       }
+    
+
+}
+
+@media screen and (max-width : 570px)  {
+    .footer{
+   
+    ul{
+     margin-left: 0px;
+    }
+}
+
+}
+
+
+@media screen and (max-width : 480px) {
+
+    .footer{
+         justify-content: flex-start;
+     }
+} 
